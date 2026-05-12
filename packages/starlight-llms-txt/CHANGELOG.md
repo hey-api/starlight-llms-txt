@@ -1,5 +1,11 @@
 # starlight-llms-txt
 
+## 0.9.0
+
+### Minor Changes
+
+- [`3855dec`](https://github.com/delucis/starlight-llms-txt/commit/3855dec6a520e13b4d088905483c42791c4b33cb) Thanks [@mrlubos](https://github.com/mrlubos)! - Add per-page Markdown route generation (`/[...slug].md`) with frontmatter and absolute URL resolution
+
 ## 0.8.1
 
 ### Patch Changes
