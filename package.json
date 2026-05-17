@@ -3,19 +3,23 @@
 	"version": "0.0.1",
 	"license": "MIT",
 	"description": "Generate llms.txt files to train large language models on your Starlight documentation website",
-	"author": "delucis",
+	"author": {
+		"name": "Hey API",
+		"email": "lubos@heyapi.dev",
+		"url": "https://heyapi.dev"
+	},
 	"type": "module",
 	"engines": {
 		"node": "^18.17.1 || ^20.3.0 || >=21.0.0"
 	},
 	"packageManager": "pnpm@10.33.2",
 	"private": true,
-	"homepage": "https://github.com/delucis/starlight-llms-txt",
+	"homepage": "https://github.com/hey-api/starlight-llms-txt",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/delucis/starlight-llms-txt.git"
+		"url": "https://github.com/hey-api/starlight-llms-txt.git"
 	},
-	"bugs": "https://github.com/delucis/starlight-llms-txt/issues",
+	"bugs": "https://github.com/hey-api/starlight-llms-txt/issues",
 	"scripts": {
 		"build:docs": "pnpm -F starlight-llms-txt-docs build",
 		"ci-version": "changeset version && pnpm install --no-frozen-lockfile",
