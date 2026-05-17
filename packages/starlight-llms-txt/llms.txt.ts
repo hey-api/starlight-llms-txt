@@ -47,7 +47,7 @@ export const GET: APIRoute = async (context) => {
 				);
 				return null;
 			}
-			const markdownPath = `${ensureTrailingSlash(starlightLllmsTxtContext.base)}${slug}.md`;
+			const markdownPath = new URL(`${slug}.md`, site);
 			const title = doc.data.hero?.title || doc.data.title;
 			const description = doc.data.hero?.tagline || doc.data.description;
 			return `- [${title}](${markdownPath})${description ? `: ${description}` : ''}`;
