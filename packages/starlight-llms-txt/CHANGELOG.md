@@ -1,5 +1,11 @@
 # starlight-llms-txt
 
+## 0.10.1
+
+### Patch Changes
+
+- [`b684b35`](https://github.com/delucis/starlight-llms-txt/commit/b684b35b0f34177ceb79815b7a0065101ce239f9) Thanks [@mrlubos](https://github.com/mrlubos)! - Fix relative URLs in `llms.txt` page links
+
 ## 0.10.0
 
 ### Minor Changes
